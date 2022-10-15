@@ -20,6 +20,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.1",
     "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.12",
     "eslint": "^8.8.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.4",
