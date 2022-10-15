@@ -1,12 +1,110 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-  background-color: #6fcdbd;
+.about-footer {
+    background-attachment: scroll;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
 }
 
-html, body  {
-	height: 100%;
-	width: 100%;
+.about-header {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.8;
+    word-wrap: break-word;
+    text-align: center;
+    box-sizing: inherit;
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-style: Solid;
+}
+
+.header-link {
+    margin: 5px 5px;
+}
+
+.text-box,
+p {
+    line-height: 1.8;
+}
+
+body {
+    background-color: #6fcdbd;
+    background-position: center center;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.site-title {
+    font-size: 30px;
+}
+
+.main-navigation ul li a,
+.main-navigation ul li a:visited,
+button,
+a.button,
+a.fl-button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+legend,
+table th,
+dl dt,
+.entry-title,
+.widget-title {
+    font-size: 15px;
+}
+
+body,
+p,
+ol li,
+ul li,
+dl dd,
+.fl-callout-text {
+    font-size: 20px;
+}
+
+blockquote,
+.entry-meta,
+.entry-footer,
+.comment-list li .comment-meta .says,
+.comment-list li .comment-metadata,
+.comment-reply-link,
+#respond .logged-in-as {
+    font-size: 15px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
